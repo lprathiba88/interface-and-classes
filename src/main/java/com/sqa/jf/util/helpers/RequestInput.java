@@ -231,6 +231,8 @@ public class RequestInput {
 	public static String getString(String question) {
 		// Local variable to hold temporary number
 		String input;
+		// Reinitialize Scanner object
+		scanner = new Scanner(System.in);
 		// Ask the user a question to get relative input
 		System.out.print(question);
 		// Set the number based on what the user enters on their
